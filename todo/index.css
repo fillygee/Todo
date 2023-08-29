@@ -16,7 +16,7 @@
     justify-content: center;
     flex-direction: column;
     width: 40%;
-    height: 200px;
+    height: auto;
     margin: auto;
     align-items: center;
     background-color: #ee9980;
@@ -29,6 +29,7 @@
     display: flex;
     border: #304757  solid;
     border-radius: 10px;
+    
 
 }
 

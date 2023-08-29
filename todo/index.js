@@ -20,7 +20,7 @@ listItem.innerHTML = `
 `
 
 todoContainer.appendChild(listItem);
-
+todoInput = ''
 }
 
 todoForm.addEventListener("submit", addTodos);
