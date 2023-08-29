@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+    position: relative;
+    display: flex;
+    border: #304757  solid;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    height: 200px;
+    margin: auto;
+    align-items: center;
+    background-color: #ee9980;
+    color: white;
+}
+
+.container {
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    border: #304757  solid;
+    border-radius: 10px;
+
+}
+
+.createtodo {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: #304757  solid;
+    border-radius: 10px;
+    height: 80px;
+    align-items: center;
+    margin: 5px;
+}
+
+
+
+.todoitem{
+    display: flex;
+    border: #304757  solid;
+    border-radius: 10px;
+    height: 40px;
+    align-items: center;
+    margin: 5px;
+    justify-content: center;
+    list-style: none;
+}
+
+.todocheckbox{
+    margin: 5px;
+    list-style: none;
+}
+
+
+
+/* colours */
+
+/* #CE7E5D  peach
+
+#A2543D reddish
+
+#D39A89 light peach
+
+#D39A89 dark turquoise
+
+#396F7B blue
+
+#304757 navyish
+
+
+*/
